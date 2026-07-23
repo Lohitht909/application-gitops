@@ -3,7 +3,7 @@ kind: Kustomization
 
 resources:
   - namespace.yaml
-
+  - storageclass.yaml
   - mongodb/secret.yaml
   - mongodb/pvc.yaml
   - mongodb/service.yaml
